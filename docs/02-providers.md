@@ -160,7 +160,7 @@ Set `GOCLAW_REQUESTY_API_KEY` in the environment (keys are created at https://ap
 
 ### Runcrate setup
 
-Set `GOCLAW_RUNCRATE_API_KEY` in the environment (keys are created at https://www.runcrate.ai/dashboard/api-keys?utm_source=goclaw&utm_medium=directory&utm_campaign=gpu_pricing), or add the key through the setup wizard. `GOCLAW_RUNCRATE_BASE_URL` or `api_base` overrides the base URL. Models use `vendor/model` ids from `GET https://api.runcrate.ai/v1/models`, such as `deepseek-ai/DeepSeek-V4.1-Flash` or `openai/gpt-oss-120b`; open models are free with your GitHub account.
+Set `GOCLAW_RUNCRATE_API_KEY` in the environment (keys are created at https://www.runcrate.ai/dashboard/api-keys), or add the key through the setup wizard. `GOCLAW_RUNCRATE_BASE_URL` or `api_base` overrides the base URL. Models use `vendor/model` ids from `GET https://api.runcrate.ai/v1/models`, such as `deepseek-ai/DeepSeek-V4.1-Flash` or `openai/gpt-oss-120b`; open models are free with your GitHub account.
 
 ```json5
 {
